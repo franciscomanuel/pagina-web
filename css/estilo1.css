@@ -1,0 +1,64 @@
+body{
+	background-color: #F0FF0F;
+	text-align: center;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;	/*Quita las líneas de debajo de los enlaces*/
+}
+
+#menuNavegacion{
+	border: 5px solid rgb(80, 80, 80);
+}
+
+#menuNavegacion a{
+	background-color: rgb(40, 40, 40);	/*Que los botones tenga un color oscuro de fondo*/
+	color: rgb(255, 255, 255);	/*Cambiamos el color de las letras*/
+	padding: 10px;	/*Agrandamos los botones*/
+	display: block;	/*Para separar los elementos del menú, pero nos dejan las opciones alargadas*/
+	border-bottom: 1px solid rgb(80, 80, 80);	/*Añade un borde a los botones*/
+}
+
+/*Para que cambie el color de los botones cuando pasamos por ellos*/
+#menuNavegacion a:hover{
+	background-color: rgb(70, 70, 100);
+}
+
+#menuNavegacion ul{
+	list-style: none;	/*Quitamos los puntos de la lista*/
+	display: inline-block;
+}
+
+#menuNavegacion li{
+	width: 130px;	/*Para disminuir las opciones alargadas*/
+	float: left;
+	margin: auto;
+}
+
+#contenedorIzq{
+	float: left;
+	width: 20%;
+	height: 500px;
+	border: 5px solid rgb(80, 80, 80);
+}
+
+#contenedorDch{
+	float: right;
+	width: 20%;
+	height: 500px;
+	border: 5px solid rgb(80, 80, 80);
+}
+
+#contenedorCentral{
+	border: 5px solid rgb(80, 80, 80);
+	height: 500px;
+}
+
+#footer{
+	border: 5px solid rgb(80, 80, 80);
+	height: 100px;
+}
+
+
+
